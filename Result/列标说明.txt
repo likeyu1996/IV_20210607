@@ -1,0 +1,13 @@
+ContractCode	合约编码
+ShortName	合约简称
+CallOrPut		认购认沽
+cop		认购认沽标识（0看涨1看跌）
+ExerciseDate	行权日
+TradingDate	交易日
+DeltaDays	剩余天数
+t		剩余年数（天数、365）
+o		收盘价
+s		标的证券收盘价
+k		行权价
+r		无风险利率（定存-整存整取一年期利率）
+iv		隐含波动率（由BS模型，通过牛顿法计算得来，精度为1e-10）
